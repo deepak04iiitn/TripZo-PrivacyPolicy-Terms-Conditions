@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TripZo",
+  title: "Routezy",
   description: "Your personal travel guide",
 };
 
