@@ -393,13 +393,22 @@ export default function PrivacyPolicyPage() {
             </span>
           </div>
 
-          <Link
-            href="/terms-and-conditions"
-            className="text-sm font-medium transition-colors hover:text-orange-500"
-            style={{ color: "#374151", fontFamily: "'DM Sans', sans-serif" }}
-          >
-            Terms and Conditions
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/request-account-deletion"
+              className="text-sm font-medium transition-colors hover:text-orange-500"
+              style={{ color: "#374151", fontFamily: "'DM Sans', sans-serif" }}
+            >
+              Request Account Deletion
+            </Link>
+            <Link
+              href="/terms-and-conditions"
+              className="text-sm font-medium transition-colors hover:text-orange-500"
+              style={{ color: "#374151", fontFamily: "'DM Sans', sans-serif" }}
+            >
+              Terms and Conditions
+            </Link>
+          </div>
         </div>
       </header>
 
